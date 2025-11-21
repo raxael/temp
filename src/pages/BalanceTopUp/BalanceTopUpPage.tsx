@@ -2,9 +2,8 @@ import { FormEvent, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const paymentOptions = [
-  { id: 'usdt', label: 'USDT (TRC-20)' },
-  { id: 'btc', label: 'BTC' },
-  { id: 'sbp', label: 'СБП' },
+  { id: 'usdt_trc', label: 'USDT (TRC-20)' },
+  { id: 'usdt_erc', label: 'USDT (ERC-20)' },
 ];
 
 export const BalanceTopUpPage = () => {
