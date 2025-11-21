@@ -13,7 +13,8 @@ const PURCHASE_ACTIONS = [
         id: 'refresh',
         label: 'Обновить',
         action: () => {},
-        isIcon: true
+        isIcon: true,
+        to: null
     },
     //{ id: 'all', label: 'Все покупки', to: '/history' },
 ];
